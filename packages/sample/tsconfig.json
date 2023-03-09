@@ -1,4 +1,4 @@
-{  
+{
   "compilerOptions": {
     "strict": true,
     "forceConsistentCasingInFileNames": true,
@@ -13,5 +13,5 @@
   },
   "include": [
     "src"
-  ],
+  ]
 }

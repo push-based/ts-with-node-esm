@@ -1,4 +1,4 @@
-import foo, { value, getValue } from './foo.js'; 
+import foo, {value, getValue, startFlowCustom} from './foo.js';
 
 export const run = () => {
   return value + getValue();
@@ -7,4 +7,7 @@ export const run = () => {
 export const runFoo = () => foo();
 
 console.log('run', run());
-console.log('runFoo', runFoo());
+
+startFlowCustom().then(() => {
+  console.log('runFoo', runFoo());
+});
