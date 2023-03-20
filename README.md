@@ -7,6 +7,21 @@ This is the sample project of the series:
 
 ## Try it
 
+create a `package.json` under `sample/lib`: 
+
+
+```json
+{
+  "name": "sample",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The sample project.",
+  "main": "_index.js",
+  "type": "module",
+  "bin": "cli.js"
+}
+```
+
 ### Prerequisites
 
 - Node.js ^16 ^18 ^19
