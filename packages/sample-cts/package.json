@@ -3,8 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "The sample project.",
-  "type": "module",
-  "_type": "CommonJs",
+  "type": "CommonJs",
   "scripts": {
     "start": "npm run build && node lib/index.js",
     "exec:npx:esm": "npm run build && npx esm ./lib/index.js",

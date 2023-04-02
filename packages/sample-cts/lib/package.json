@@ -4,6 +4,6 @@
   "version": "1.0.0",
   "description": "The sample project.",
   "main": "_index.js",
-  "type": "module",
+  "type": "commonjs",
   "bin": "cli.js"
 }
