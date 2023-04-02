@@ -1,2 +1,1 @@
-export declare const run: () => number;
-export declare const runFoo: () => string;
+export declare const run: () => any;

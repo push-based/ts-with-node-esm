@@ -1,9 +1,4 @@
-import { resolve } from 'path';
-import(resolve(__dirname, 'index.js'))
-    .then((main) => {
-    if (typeof main !== 'function') {
-        console.log('main not a fn');
-    }
-    console.log('exec main fn');
-    return main();
-}).finally(() => console.log('END'));
+#! /usr/bin/env node
+import { getValue, startFlowCustom } from "./foo";
+console.log('getValue: ', getValue());
+startFlowCustom().then(v => console.log('startFlowCustom done!'));
