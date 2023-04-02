@@ -1,4 +1,4 @@
-import {value, getValue} from './foo';
+import {value, getValue} from './foo.js';
 
 export const run = () => {
   return value + getValue();

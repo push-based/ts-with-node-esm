@@ -6,10 +6,14 @@
     "noUncheckedIndexedAccess": true,
     "outDir": "lib",
     "declaration": true,
-    "types": ["node", "jest"],
+    "allowJs": true,
+    "importHelpers": true,
     "target": "esnext",
     "moduleResolution": "nodenext",
-    "module": "esnext"
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "types": ["node", "jest"],
+    "allowSyntheticDefaultImports": true,
   },
   "include": [
     "src"

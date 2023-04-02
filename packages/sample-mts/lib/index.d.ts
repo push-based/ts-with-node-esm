@@ -1,1 +1,1 @@
-export declare const run: () => any;
+export declare const run: () => number;

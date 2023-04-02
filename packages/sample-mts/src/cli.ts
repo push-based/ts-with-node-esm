@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-import {getValue, startFlowCustom} from "./foo";
+import {getValue, startFlowCustom} from "./foo.js";
 
 
 console.log('getValue: ', getValue());
