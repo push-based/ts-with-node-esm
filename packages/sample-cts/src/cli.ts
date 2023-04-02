@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import {getValue} from "./foo";
 
 
