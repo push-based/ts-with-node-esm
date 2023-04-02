@@ -6,10 +6,12 @@
     "noUncheckedIndexedAccess": true,
     "outDir": "lib",
     "declaration": true,
+    "target": "es2020",
+    "module": "commonjs",
+    "lib": ["es2020", "dom"],
     "types": ["node", "jest"],
-    "target": "esnext",
-    "moduleResolution": "nodenext",
-    "module": "esnext"
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
   },
   "include": [
     "src"

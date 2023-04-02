@@ -1,9 +1,4 @@
-import { resolve } from 'path';
-import(resolve(__dirname, 'index.js'))
-    .then((main) => {
-    if (typeof main !== 'function') {
-        console.log('main not a fn');
-    }
-    console.log('exec main fn');
-    return main();
-}).finally(() => console.log('END'));
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const foo_1 = require("./foo");
+console.log('getValue: ', (0, foo_1.getValue)());
