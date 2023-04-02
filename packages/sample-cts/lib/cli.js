@@ -3,3 +3,4 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const foo_1 = require("./foo");
 console.log('getValue: ', (0, foo_1.getValue)());
+(0, foo_1.startFlowCustom)().then(v => console.log('startFlowCustom done!'));

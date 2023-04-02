@@ -1,24 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getValue = exports.value = void 0;
-/*import {startFlow} from 'lighthouse';
-import {Browser, launch, Page} from 'puppeteer';
-import * as yargs from 'yargs';
-*/
+exports.startFlowCustom = exports.getValue = exports.value = void 0;
+/**/ const lighthouse_1 = require("lighthouse");
+const puppeteer_1 = require("puppeteer");
+const yargs = require("yargs");
 exports.value = 2;
 const getValue = () => exports.value;
 exports.getValue = getValue;
-/*
-export default function foo() {
-  return 'foo';
+async function startFlowCustom() {
+    console.log('yargs', yargs.argv);
+    const browser = await (0, puppeteer_1.launch)({ headless: false });
+    const page = await browser.newPage();
+    const flow = await (0, lighthouse_1.startFlow)(page);
+    flow.navigate("https://google.com");
 }
-
-export async function startFlowCustom() {
-  console.log('yargs', yargs.argv);
-  const browser: Browser = await launch({headless: false});
-  const page: Page = await browser.newPage();
-  const flow = await startFlow(page);
-  flow.navigate("https://google.com")
-
-}
-*/
+exports.startFlowCustom = startFlowCustom;
