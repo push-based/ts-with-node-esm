@@ -9,7 +9,7 @@
   "exports": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "start": "pnpm build && node lib/index.js",
+    "start": "npm run build && node lib/index.js",
     "build": "tsc -p tsconfig.build.json"
   },
   "author": "Silverhand Inc. <contact@silverhand.io>",

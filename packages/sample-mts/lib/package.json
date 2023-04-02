@@ -1,0 +1,9 @@
+{
+  "name": "sample",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The sample project.",
+  "main": "_index.js",
+  "type": "module",
+  "bin": "cli.js"
+}
