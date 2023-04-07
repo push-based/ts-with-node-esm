@@ -1,8 +1,8 @@
 {
-  "name": "sample-cjs",
+  "name": "sample-mjs",
   "private": true,
   "version": "1.0.0",
-  "description": "The sample cjs project.",
+  "description": "The sample mjs project.",
   "type": "module",
   "scripts": {
     "start": "npm run build && node lib/index.js",

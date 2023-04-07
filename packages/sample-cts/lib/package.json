@@ -1,11 +1,9 @@
 {
-  "name": "sample",
+  "name": "sample cjs",
   "private": true,
   "version": "1.0.0",
-  "description": "The sample project.",
+  "description": "The sample project to execute cjs as bin",
   "main": "cli.cjs",
   "type": "commonjs",
-  "bin": {
-    "sample": "cli.cjs"
-  }
+  "bin":"cli.cjs"
 }
