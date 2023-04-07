@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npm run build && node lib/index.js",
     "exec:npx": "npm run build && npx ./lib",
-    "exec:node": "npm run build && node lib/cli.js",
+    "exec:node": "npm run build && node lib/cli.mjs",
     "build": "tsc -p tsconfig.build.json",
     "build:test": "tsc -p tsconfig.test.json --sourcemap",
     "test:only": "NODE_OPTIONS=--experimental-vm-modules jest",

@@ -1,9 +1,9 @@
 {
-  "name": "sample mjs",
+  "name": "sample-mjs",
   "private": true,
   "version": "1.0.0",
   "description": "The sample project to execute mjs as bin",
-  "main": "cli.js",
+  "main": "index.js",
   "type": "module",
-  "bin": "cli.js"
+  "bin": "cli.mjs"
 }
