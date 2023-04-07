@@ -1,8 +1,8 @@
 #! /usr/bin/env node
 
-import {getValue, startFlowCustom} from "./foo.js";
+import {startFlowCustom} from "./lh-user-flow.mjs";
 
 
-console.log('getValue: ', getValue());
+console.log('startFlowCustom...');
 startFlowCustom().then(v => console.log('startFlowCustom done!'));
 

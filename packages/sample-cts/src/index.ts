@@ -1,7 +1,7 @@
-import {value, getValue} from './foo';
+import {startFlowCustom} from './lh-user-flow.mjs';
 
 export const run = () => {
-  return value + getValue();
+  return typeof startFlowCustom;
 }
 
 console.log('run', run());

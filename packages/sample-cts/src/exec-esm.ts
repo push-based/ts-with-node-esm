@@ -13,7 +13,7 @@ export async function execute({
     const {default: main} = await import(
         path.resolve(cwd, script)
         )
-
+    console.log("main: ", main);
     if (typeof main !== 'function') {
         console.log("main !== 'function'");
         return 1;

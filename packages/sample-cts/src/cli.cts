@@ -1,11 +1,9 @@
 #! /usr/bin/env node
 
-import {getValue} from "./foo";
 import {execute} from "./exec-esm";
 
-console.log('getValue: ', getValue());
+console.log('getValue: ');
 
 execute({
-    argv: ['lighthouse', '--help'],
+    argv: ['lib/lh-user-flow.mjs', '--help'],
 }).then(v => console.log('startFlowCustom done!'));
-

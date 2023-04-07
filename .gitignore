@@ -10,9 +10,9 @@ node_modules
 
 # production
 /packages/*/dist
-# exclude all files in the lib follder but the "package.json" file
-/packages/*/lib/!(package.json)
-/packages/*/build
+# exclude all files in the lib folder but the "package.json" file
+/packages/**/lib/!(package.json)
+/packages/**/build
 
 # logs
 logs

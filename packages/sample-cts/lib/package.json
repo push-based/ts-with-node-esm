@@ -3,9 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "description": "The sample project.",
-  "main": "cli.js",
+  "main": "cli.cjs",
   "type": "commonjs",
   "bin": {
-    "sample": "cli.js"
+    "sample": "cli.cjs"
   }
 }
