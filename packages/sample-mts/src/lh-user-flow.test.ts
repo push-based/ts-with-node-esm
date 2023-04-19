@@ -1,10 +1,10 @@
-import {startFlowCustom} from "./lh-user-flow.mjs";
+import {startFlowCustom} from "./lh-user-flow.js";
 import { execSync } from "child_process";
 
 describe('lh-user-flow', () => {
     it('should run', async () => {
 
-        execSync('node lib/cli.mjs');
+        execSync('node lib/cli.js');
 
         // const res = await startFlowCustom();
         console.log('sanity Check !3');

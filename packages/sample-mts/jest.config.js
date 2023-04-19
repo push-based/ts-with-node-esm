@@ -1,10 +1,10 @@
 /** @type {import('jest').Config} */
 const config = {
   roots: ['./lib'],
-  testMatch: ['**.test.mjs'],
+  testMatch: ['**.test.js'],
   moduleNameMapper: {'^(\\.{1,2}/.*)\\.js$': '$1'},
   transform: {
-    '^.+\\.m?[tj]sx?$': [
+    '^.+\\.?[tj]sx?$': [
       'ts-jest',
       {
         useESM: true,

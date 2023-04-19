@@ -1,4 +1,4 @@
-import {startFlowCustom} from './lh-user-flow.mjs';
+import {startFlowCustom} from './lh-user-flow.js';
 
 export const run = () => {
   return typeof startFlowCustom;
