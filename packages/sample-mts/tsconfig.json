@@ -10,6 +10,7 @@
     "importHelpers": true,
     "target": "esnext",
     "moduleResolution": "nodenext",
+    "esModuleInterop": true,
     "module": "esnext",
     "lib": ["es2020", "dom"],
     "types": ["node", "jest"],
