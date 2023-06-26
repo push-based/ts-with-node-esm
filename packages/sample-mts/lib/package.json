@@ -5,5 +5,5 @@
   "description": "The sample project to execute mjs as bin",
   "main": "index.js",
   "type": "module",
-  "bin": "cli.mjs"
+  "bin": "cli.js"
 }
