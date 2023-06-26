@@ -16,3 +16,8 @@ Navigate to one of the folders and use the npm scripts to execute the code base:
 - `npm run test` - Execute e2e and unit test
 
 Both commands use typescript to compile the codebase first.
+
+
+### Resources
+
+- https://github.com/GoogleChrome/lighthouse/issues/14811
