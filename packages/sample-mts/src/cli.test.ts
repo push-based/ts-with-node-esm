@@ -3,7 +3,6 @@ import { execSync } from "child_process";
 
 describe('lh-user-flow', () => {
     it('should run', async () => {
-        startFlowCustom().then(() => console.log('Passes'))
         execSync('node lib/cli.js olo');
 
         // const res = await startFlowCustom();

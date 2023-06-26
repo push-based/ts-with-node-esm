@@ -10,9 +10,8 @@
     "exec:node": "npm run build && node lib/cli.mjs",
     "build": "tsc -p tsconfig.build.json",
     "build:test": "tsc -p tsconfig.test.json --sourcemap",
-    "test:only": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "test": "pnpm build:test && pnpm test:only",
-    "test:coverage": "pnpm run test --coverage"
+    "test": "npm run build:test && jest",
+    "test:coverage": "npm run test --coverage"
   },
   "devDependencies": {
     "@jest/globals": "^29.3.1",
