@@ -10,7 +10,7 @@
     "exec:node": "npm run build && node lib/cli.mjs",
     "build": "tsc -p tsconfig.build.json",
     "build:test": "tsc -p tsconfig.test.json --sourcemap",
-    "test": "npm run build:test && jest",
+    "test": "npm run build:test && node --experimental-vm-modules --trace-warnings node_modules/jest/bin/jest.js",
     "test:coverage": "npm run test --coverage"
   },
   "devDependencies": {

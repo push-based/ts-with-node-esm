@@ -13,5 +13,6 @@ The interesting folders are:
 Navigate to one of the folders and use the npm scripts to execute the code base:
 - `npm run exec:npx` - Executes with npx (path from `bin` prop in `package.json` in the `lib` folder).
   `npm run exec:node` - Executes with node
+- `npm run test` - Execute e2e and unit test
 
 Both commands use typescript to compile the codebase first.
