@@ -22,3 +22,4 @@ Both commands use typescript to compile the codebase first.
 
 - https://github.com/GoogleChrome/lighthouse/issues/14811
 - https://github.com/jestjs/jest/issues/11434
+- https://github.com/GoogleChrome/lighthouse/issues/15146
