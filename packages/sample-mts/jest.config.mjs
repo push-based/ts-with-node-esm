@@ -2,7 +2,6 @@
 const config = {
   roots: ['./lib'],
   testMatch: ['**.test.js'],
-  moduleNameMapper: {'^(\\.{1,2}/.*)\\.js$': '$1'},
   transform: {
     '^.+\\.?[tj]sx?$': [
       'ts-jest',
@@ -11,6 +10,10 @@ const config = {
       },
     ],
   },
+  extensionsToTreatAsEsm: ['.ts'],
+  transformIgnorePatterns: [
+      'node_modules/'
+  ]
 };
 
 export default config;

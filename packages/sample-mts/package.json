@@ -21,7 +21,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "lighthouse": "^10.1.1",
+    "lighthouse": "^10.3.0",
     "puppeteer": "^19.9.1"
   }
 }
